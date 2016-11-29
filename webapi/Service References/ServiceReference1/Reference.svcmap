@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="22806d95-1560-467f-8b71-5c8c83c077a9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:57320/Api.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Api.wsdl" MetadataType="Wsdl" ID="210b7d92-2cd7-4c96-817c-b99eff8a71dc" SourceId="1" SourceUrl="http://localhost:57320/Api.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="Api.disco" MetadataType="Disco" ID="d95515e0-b514-4838-8d45-614a7a043077" SourceId="1" SourceUrl="http://localhost:57320/Api.svc?disco" />
+    <MetadataFile FileName="Api.xsd" MetadataType="Schema" ID="021da8c7-3440-4ae9-875e-abd16465ac23" SourceId="1" SourceUrl="http://localhost:57320/Api.svc?xsd=xsd0" />
+    <MetadataFile FileName="ApiService.wsdl" MetadataType="Wsdl" ID="7295e51a-fc05-42fd-b0a3-974a51beab4c" SourceId="1" SourceUrl="http://localhost:57320/Api.svc?wsdl" />
+    <MetadataFile FileName="Api1.xsd" MetadataType="Schema" ID="d92a0a37-3773-4b35-aa2e-af825c83653a" SourceId="1" SourceUrl="http://localhost:57320/Api.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
